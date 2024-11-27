@@ -1,0 +1,131 @@
+.veterinary-grid{
+    display:grid;
+    grid-template-columns: 500px 500px 390px;
+    height:500px;
+    gap:20px
+  }
+
+  .vet-page{
+    background-color: rgba(255, 255, 255, 0.464);
+    font-size: 23px;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:20px;
+    margin-top:290px;
+    margin-bottom:290px;
+    margin-left:250px;
+    border: 2px solid rgb(242, 242, 242);
+    border-radius: 5px;
+    font-family: Inria Sans;
+    font-size: 20px;
+  }
+
+  
+  .vet-fav-adv-grid{
+    display:grid;
+    grid-template-rows: 250px 200px;
+    border-radius: 20px;
+    gap: 0.5px;
+    
+  }
+
+  .favorites{
+    background-color: rgba(217, 218, 243, 1);
+    box-shadow:rgba(147, 133, 226, 0.5) 0 1px 30px;
+    border-radius: 10px;
+    margin-top: 80px;
+    margin-bottom: 50px;
+  }
+
+
+  .advice-grid{
+    display: grid;
+    grid-template-rows: 25px 150px;
+    box-shadow:rgba(147, 133, 226, 0.5) 0 1px 30px;
+    border-radius: 10px;
+  }
+
+  .author{
+    
+    padding-left:420px;
+    border-radius: 10px 10px 0px 0px;
+  }
+
+
+  .vet-list-grid{
+    display:grid;
+    grid-template-rows: 1fr 550px;
+  }
+
+  
+
+  .vet-list{
+   background-color: rgba(217, 218, 243, 1);
+   box-shadow:rgba(147, 133, 226, 0.5) 0 1px 30px;
+   border-radius: 10px;
+   margin-right: 10px;
+  }
+
+  .search-bar{
+    width:370px;
+    height:30px;
+    border-radius: 20px;
+    border-width: 0.5px;
+    padding-left: 10px;
+  }
+
+
+  .vet-info{
+    display:grid;
+    grid-template-columns: 60px 1fr;
+    height : 60px;
+    margin: 20px;
+    gap:20px;
+    border: 2px solid rgb(242, 242, 242);
+    border-radius:5px;
+  }
+
+  .vet-profile-pic{
+     background-color: rgb(116, 116, 116);
+     border-radius: 50px;
+     margin:2px;
+  }
+
+
+  .vet-contact{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+
+  .vet-name, .vet-address .vet-num{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+   
+  
+
+  .vet-location{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right:10px;
+  }
+
+  .nearby{
+    padding-left: 110px;
+  }
+
+  .around-the-island{
+    padding-right: 50px;
+  }
+
+  .veterinarians{
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    margin:20px;
+    height: 470px;
+    padding-top: 1px;
+  }
+
+ 
+  
